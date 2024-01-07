@@ -1,7 +1,7 @@
 import Foundation
 
 // INTRODUCCIÓN A LAS ESTRUCTURAS, PROPIEDADES Y MÉTODOS
-struct squared {
+struct Squared {
 
     var width = 10  // Las estructuras además de propiedades
     var height = 10
@@ -13,7 +13,7 @@ struct squared {
         
 }
 
-var mySquared = squared()
+var mySquared = Squared()
 
 /* Al introducir la función del área dentro de la estructura
 nos permite ahora acceder a los tres datos: Width, Height y Area.*/
@@ -21,7 +21,7 @@ nos permite ahora acceder a los tres datos: Width, Height y Area.*/
 squared.area()
 
 // INTRODUCCIÓN A CLASES, INSTANCIAS Y USO DE OBJETOS
-class tesla {
+class Tesla {
     var color = "gray"
     var wheels = 4
     var prize = 0
@@ -37,7 +37,7 @@ class tesla {
     }
 }
 
-var myTeslaCybertruck = tesla()
+var myTeslaCybertruck = Tesla()
 
 myTeslaCybertruck.prize
 
@@ -45,7 +45,7 @@ myTeslaCybertruck.prize = 40000
 
 print(myTeslaCybertruck.prize)
 
-struct structTesla {
+struct StructTesla {
 
     var color = "gray"
     var wheels = 4
@@ -64,7 +64,7 @@ struct structTesla {
     }
 }
 
-var myStructTesla = structTesla()
+var myStructTesla = StructTesla()
 
 myStructTesla.prize
 myStructTesla.prize = 40000
