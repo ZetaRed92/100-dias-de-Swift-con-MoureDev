@@ -19,7 +19,7 @@ salary
 
 // ARRAYS O ARREGLOS
 // Un array es una colección ordenada de acceso aleatorio.
-             // 0  1  3   
+             // 0  1  2   
 var arrayNum = [1, 2, 3] // Array mutable: se utiliza la keyword (var). Variable = Mutable.
 let arrayNumLet = [3, 2, 1] // Array inmutable: usamos la keyword (let) Constante = Inmutable.
 
