@@ -187,7 +187,7 @@ var igual = 1 == 1
 var noIgual = 2 != 1 
 var mayorQue = 2 > 1 
 var menorQue = 1 < 2 
-var mayorIgual = 1 <= 1 
+var mayorIgual = 1 >= 1 
 var menorIgual = 2 <= 1 
 
 // IF ELSE
