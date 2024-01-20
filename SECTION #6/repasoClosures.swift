@@ -57,3 +57,29 @@ UnaFuncionCualquieraQueTomaUnaClausura(clausura:{
 UnaFuncionCualquieraQueTomaUnaClausura(){
 // El cuerpo de la clausura colgante va aquí
 }
+
+// Método MAP(_:)
+/* Usamos el método map(_:) con una clausura colgante,
+para convertir un array de valores tipo Int en un array 
+de valores tipo String.
+*/
+
+let intToStrings = [
+    0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four",
+    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
+]
+let nums = [16, 58, 510]
+//Ahora podemos usar el array para crear otro array con valores tipo String
+let strings = nums.map{(num) -> String in
+    var num = num
+    var conversion = ""
+
+    repeat {
+        conversion = intToStrings[num % 10]! + conversion
+        num /= 10
+    } while num > 0
+
+
+    return conversion
+}
+
